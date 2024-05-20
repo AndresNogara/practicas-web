@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Red social</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <style>
+        *{
+             font-family: "Roboto", sans-serif;
+             font-weight: 400;
+             font-style: normal;
+        }
+        body{
+            margin: 10px 50px;
+        }
+        .elementos-cabecera{
+            display: inline-block;
+            vertical-align: middle;
+            text-align: center;
+            margin: 2px 10px;
+        }
+        
+        .icono-cabecera{
+            padding: 1px;
+            margin: 1px
+        }
+        .texto-iconos-cabecera{
+            padding: 1px;
+            margin: 1px;
+            font-size: 12px;
+            }
+        #contenedor-iconos{
+            text-align: right;
+            display: inline-block;
+        }
+        .profile-item{
+            display: inline-block;
+            vertical-align: middle;
+        }
+        #profile{
+            border: 1px solid gray;
+            border-radius: 20px;
+            padding: 20px;
+
+        }
+        #info{
+            margin: 0px 20px;
+        }
+        input{
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="cabecera">
+            <div class="elementos-cabecera" id="contenedor-logo">
+                <img id="logo" width="30px" src="https://img.freepik.com/fotos-premium/logotipo-cuadrado-linkedin-aislado-fondo-blanco_469489-1030.jpg"/>
+            </div>
+            <div class="elementos-cabecera" id="contenedor-buscador">
+                <form method="post" action="https://enrmi0w38h0h.x.pipedream.net" enctype="multipart/form-data">
+                    <label for="buscador"><span class="material-symbols-outlined">
+                        search
+                        </span></label>
+                    <input type="search" id="buscador" name="buscador" placeholder="Buscar"/>
+                </form>
+            </div>
+            <div id="contenedor-iconos">
+            <div class="elementos-cabecera">
+                <div class="elementos-cabecera" id="home">
+                    <a href="#"><span class="material-symbols-outlined icono-cabecera">
+                        home
+                        </span>
+                        <p class="texto-iconos-cabecera">Inicio</p></a>
+                </div>
+                <div class="elementos-cabecera" id="notification">
+                    <a href="#"><span class="material-symbols-outlined icono-cabecera">
+                        notifications
+                        </span>
+                        <p class="texto-iconos-cabecera">Notificaciones</p></a>
+                </div>
+            </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="profile">
+            <div class="profile-item" id="picture">
+                <img style="border-radius: 150px;" width="150px" src="https://static-1.ivoox.com/audios/7/7/0/8/8851554998077_LG.jpg"/>
+            </div>
+            <div class="profile-item" id="info">
+                <h1>Andrés Nogara</h1>
+                <h3>Diseño Gráfico / Diseño Web / UX UI / Desarrollador Fullstack </h3>
+            </div>
+
+        </section>
+        <section id="contacto">
+            <h3>Contacto</h3>
+            <form method="post" action="https://enrmi0w38h0h.x.pipedream.net" enctype="multipart/form-data">
+                <fieldset> 
+                    <legend>Información personal</legend>
+                    <label for="user-name">Nombre</label>
+                    <input type="text" placeholder="Ingresa tu nombre" required id="name" name="name" />
+    
+                    <label for="user-lastname">Apellido</label>
+                    <input type="text" placeholder="Ingresa tu apellido" id="lastname" name="lastname" />
+                   
+                    <br/>
+                   
+                    <label for="email">Email</label>
+                    <input type="email" placeholder="Ingresa tu correo electrónico" id="email" name="email"/>
+    
+                    <label for="telefono">Telefono</label>
+                    <input type="number" placeholder="Ingresa tu numero telefonico" id="telefono" name="telefono"/>
+    
+                </fieldset>
+                <fieldset>
+                    <label for="mensaje">Mensaje</label>
+                    <textarea rows="5" id="mensaje" name="mensaje" placeholder="Escribe tu mensaje">Escribe tu mensaje</textarea>
+                </fieldset>
+                </form>
+        </section>
+        <section id="mapa">
+            <h3>Ubicacion</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52451.06498907223!2d-55.75975552814731!3d-34.75076699970198!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959ff77591d21fd3%3A0x62ccfed7e41754c!2s15300%20La%20Floresta%2C%20Departamento%20de%20Canelones!5e0!3m2!1ses!2suy!4v1712205412394!5m2!1ses!2suy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>

@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: cornflowerblue;
+    font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+    
+}
+
+.catalogo{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    align-items: center;
+}
+
+.imagen{
+    width: 200px;
+    border-radius: 15px;
+}
+.catalogo-item{
+    border: solid 1px black;
+    height: 450px;
+    padding: 10px;
+    background-color: rgb(185, 209, 209);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.info{
+    display: flex;
+    width: 150px;
+    flex-direction: column;
+    gap: 5px;
+}
+button{
+    align-self: center;
+    background-color: darkgreen;
+    color: azure;
+    font-size: large;
+    padding: 10px;
+    border-radius: 10px;
+    border: solid 1px white;
+}
+.marca{
+    font-size: small;
+}
+.titulo{
+    font-weight: 400;
+}
+.precio{
+    font-size: larger;
+}
+.descuento{
+    text-decoration: line-through;
+    font-size: small;
+}
+.estrella{
+    width: 15px;
+    border-radius: 10px;
+}
+
+#newsletter{
+    background: url(https://static.vecteezy.com/system/resources/thumbnails/008/552/477/small_2x/abstract-banner-background-with-lines-pattern-illustration-free-vector.jpg);
+    background-size: cover;
+    border: solid 5px rgb(23, 17, 73);
+    border-radius: 10px;
+    position: fixed;
+    top: 100px;
+    left: 25%;
+    height: 200px;
+    width: 500px;
+    padding: 20px;
+    margin: 10px;
+    z-index: 1;
+
+}
+
+#cerrar{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+#promocion{
+    background-color: darkblue;
+    border-radius: 0;
+    border: solid 1px black;
+    box-shadow: 2px 2px 0 0;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 100px;
+}
+
+#titulo{
+    font-family: "Jersey 15", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+  color: darkblue;
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  
+
+}
+
+#subtitulo{
+    font-family: "Jersey 15", sans-serif;
+    font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 10px;
+  color: black;
+  position: relative;
+  top: 50px;
+  left: 50px;
+}
+
+#texto{
+    position: relative;
+  top: 80px;
+  left: 80px;
+  width: 70%;
+}
+
+#email1{
+    position: absolute;
+    bottom: 10px;
+    right: 120px;
+}

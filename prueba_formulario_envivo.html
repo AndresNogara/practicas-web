@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1>Bienvenido a Aerolineas Dojo</h1>
+    <br/>
+        <h2>Selecciona las opciones</h2>
+<br/>
+        <form method="post" action="https://webhook.site/cffc1199-716a-4fa0-8859-02b79d6a442d" enctype="multipart/form-data">
+
+            <label for="pasaje">Tipo de pasaje</label>
+    <select name="pasaje" id="pasaje">
+        <option value="Primera">Primera clase</option>
+        <option value="Economico">Economico</option>
+        <option value="Equipaje">Equipaje</option>
+    </select>
+
+    <label for="pasajeros">Nº de pasajeros</label>
+    <select name="pasajeros" id="pasajeros">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+    </select>
+
+    <label for="Millas">Viajero con millas</label>
+    <input type="checkbox" id="Millas" name="millas" value="Activar las millas"/> 
+
+    <br/>
+
+    <label for="origen">Desde</label>
+    <input type="text" placeholder="Ciudad de origen" id="origen" name="origen" />
+
+    <br/>
+
+    <label for="destino">Hasta</label>
+    <input type="text" placeholder="Ciudad de destino" id="destino" name="destino" />
+
+    <br/>
+
+    <label for="partida">Horario partida</label>
+    <input type="datetime-local" placeholder="Dia y hora de salida" id="partida" name="partida" />
+
+    <label for="llegada">Horario llegada</label>
+    <input type="datetime-local" placeholder="Dia y hora de llegada" id="llegada" name="llegada" />
+
+    <br/>
+    <input type="submit" value="Enviar datos" />
+
+    </div>
+
+
+</body>
+</html>

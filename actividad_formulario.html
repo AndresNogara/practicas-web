@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <header>
+        <img width="200" src="https://png.pngtree.com/png-clipart/20220719/original/pngtree-pizza-logo-design-png-image_8363624.png" />
+        <h1>Realiza tu pedido</h1>
+    </header>
+    <main>
+        <form method="post" action="https://enrmi0w38h0h.x.pipedream.net" enctype="multipart/form-data">
+            <fieldset> 
+                <legend>Datos del cliente</legend>
+                <label for="user-name">Nombre</label>
+                <input type="text" placeholder="Ingresa tu nombre" required id="user-name" name="username" />
+
+                <label for="user-lastname">Apellido</label>
+                <input type="text" placeholder="Ingresa tu apellido" id="user-lastname" name="userlastname" />
+               
+                <br/>
+               
+                <label for="email">Email</label>
+                <input type="email" placeholder="Ingresa tu correo electrónico" id="email" name="email"/>
+
+                <label for="telefono">Telefono</label>
+                <input type="number" placeholder="Ingresa tu numero telefonico" id="telefono" name="telefono"/>
+
+                <br/>
+
+                <label for="ciudad">Elige tu ciudad</label>
+                <select name="ciudad" id="ciudad">
+                    <option value="montevideo">Montevideo</option>
+                    <option value="canelones">Canelones</option>
+                    <option value="salto">Salto</option>
+        
+                </select>
+
+                <label for="codigo">Codigo postal</label>
+                <input type="number" placeholder="Ingresa tu código postal" id="codigo" name="codigo"/>
+            
+            </fieldset>
+                <br/>
+
+            <fieldset> 
+                    <legend>Personaliza tu pizza</legend>   
+                    <br/>
+                    <p><b>Selecciona el tamaño</b> </p>
+                    <label FOR="familiar">Familiar</label>
+                    <input type="radio" name="size" id="familiar" value="familiar" />
+                    <label FOR="gigante">Gigante</label>
+                    <input type="radio" name="size" id="gigante" value="gigante" />
+                    <label FOR="monster">Monster</label>
+                    <input type="radio" name="size" id="monster" value="monster" />
+                    <br/>
+                    <p><b>Selecciona el tipo de masa</b> </p>
+                    <label FOR="fina">Fina</label>
+                    <input type="radio" name="masa" id="fina" value="fina" />
+                    <label FOR="esponjosa">Esponjosa</label>
+                    <input type="radio" name="masa" id="esponjosa" value="esponjosa" />
+                    <label FOR="rellena">Rellena</label>
+                    <input type="radio" name="masa" id="rellena" value="rellena" />
+                    <br/>
+                    <p><b>Selecciona los extras</b> </p>
+                    <label for="aceitunas">Aceitunas</label>
+                    <input type="checkbox" id="aceitunas" name="gustos" value="aceitunas"/>
+                    <label for="piña">Piña</label>
+                    <input type="checkbox" id="piña" name="gustos" value="piña"/>
+                    <label for="salame">Salame</label>
+                    <input type="checkbox" id="salame" name="gustos" value="salame"/>
+                    <label for="champignon">Champignon</label>
+                    <input type="checkbox" id="champignon" name="gustos" value="champignon"/>
+
+            </fieldset>
+            <br/>
+            <fieldset>
+                <legend>Entrega</legend>
+                <label for="fecha">Fecha de entrega</label>
+                <input type="datetime-local" id="fecha" name="fecha"/>
+                <br/>
+                <label for="indicaciones">Indicaciones</label>
+                <textarea rows="5" id="indicaciones" name="indicaciones">Describe indicaciones para la entrega</textarea>
+            </fieldset>
+            <br/>
+    <input type="submit" value="Realizar pedido" onclick="alert('Su pedido ha sido realizado')" />
+        </form>
+    </main>
+</body>
+</html>

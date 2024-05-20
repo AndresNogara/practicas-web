@@ -1,0 +1,87 @@
+body{
+    background-color: cadetblue;
+}
+
+main{
+    width: 500px;
+   color: beige;
+    background-color: black;
+    position: relative;
+}
+
+#elemento{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 200px;
+    left: 20px;
+    background-color: grey;
+    border: solid 2px black;
+    color: aqua;
+}
+
+#elemento2{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: white;
+    border: solid 2px black;
+}
+
+#elemento3{
+    width: 10px;
+    height: 10px;
+    position: relative;
+    top: 100px;
+    right: -50px;
+    background-color: white;
+    border: solid 2px black;
+}
+
+#boton{
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: rgb(58, 207, 44);
+    border: solid 2px black;
+    border-radius: 20px;
+}
+
+#boton2{
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    background-color: rgb(58, 207, 44);
+    border: solid 2px black;
+    border-radius: 20px;
+}
+
+#boton3{
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    bottom: 30px;
+    left: 30px;
+    background-color: rgb(29, 84, 202);
+    border: solid 2px black;
+    border-radius: 20px;
+    z-index: 1;
+}
+
+#botoncito1{
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+
+#botoncito2{
+    position: relative;
+    top: 10px;
+    left: 20px;
+}

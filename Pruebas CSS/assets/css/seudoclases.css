@@ -1,0 +1,28 @@
+body{
+    background-color: beige;
+}
+.nombre{
+    padding: 20px;
+    border: solid 1px black;
+}
+
+.nombre:focus{
+    background-color: black;
+}
+
+p:hover{
+    background-color: aqua;
+    color: blue;
+    width: 500px;
+    transform: scale(2);
+}
+
+li:first-child{
+    font-size: 25px;
+    color: blue;
+}
+
+li:last-child{
+    font-size: 45px;
+    color: rgb(155, 68, 10);
+}

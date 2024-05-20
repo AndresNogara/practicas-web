@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<form method="post" action="https://webhook.site/cffc1199-716a-4fa0-8859-02b79d6a442d" enctype="multipart/form-data">
+   
+   <fieldset>
+    <label for="user-name">Nombre</label>
+    <input type="text" placeholder="Ingresa tu nombre" value="Andrés" required id="user-name" name="username" />
+
+    <label for="email">Email</label>
+    <input type="email" placeholder="Ingresa tu correo electrónico" id="email" name="email"/>
+
+<br/>
+
+    <label for="contraseña">Contraseña</label>
+    <input type="password" placeholder="Ingresa tu contraseña" id="contraseña" name="contraseña"/>
+
+</fieldset>
+    <br/>
+
+<p>Selecciona tu color favorito</p>
+<label for="rojo">Rojo</label>
+    <input type="checkbox" id="rojo" name="color-preferido" value="rojo"/>
+
+    <label for="verde">Verde</label>
+    <input type="checkbox" id="verde" name="color-preferido" value="verde"/>
+<br/>
+
+    <p>Ingresa tu signo del sodíaco</p>
+    <label FOR="aries">Aries</label>
+    <input type="radio" name="signo" id="aries" value="aries" />
+
+    <label FOR="libra">Libra</label>
+    <input type="radio" name="signo" id="libra" value="libra" />
+
+    <br/>
+
+    <input type="datetime-local" name="fecha-checkin" id="fecha"/>
+
+    <br/>
+
+    <label for="eleccion">Elige tu preferido</label>
+    <select name="eleccion" id="seleccion">
+        <option value="javascript">Javascript</option>
+        <option value="pyton">Pyton</option>
+        <option value="c++">C++</option>
+        
+    </select>
+
+    <br/>
+
+    <input type="hidden" name="token" id="token" value="" />
+
+    <br/>
+
+    <input type="file" id="adjunto" accept=".jpg">
+
+    <br/>
+    <input type="submit" value="Enviar datos" />
+</form>
+
+</body>
+</html>
